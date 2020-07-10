@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/whatsapp"
+        android:orderInCategory="100"
+        android:title="Whatsapp"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_camera"/>
+
+    <item
+        android:id="@+id/facebook"
+        android:orderInCategory="100"
+        android:title="Facebook"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/instagram"
+        android:orderInCategory="100"
+        android:title="Instagram"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/twitter"
+        android:orderInCategory="100"
+        android:title="Twitter"
+        app:showAsAction="never" />
+
+</menu>

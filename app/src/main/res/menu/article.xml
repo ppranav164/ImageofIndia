@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/text_small"
+        android:title="Small Text"
+        app:showAsAction="always"
+        android:icon="@drawable/les_text"
+        />
+
+    <item
+        android:id="@+id/text_big"
+        android:title="Large Text"
+        app:showAsAction="always"
+        android:icon="@drawable/icn_text"
+        />
+
+
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share"
+        />
+
+</menu>

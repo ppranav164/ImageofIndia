@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:layout_gravity="right"
+    android:padding="10dp">
+
+    <!-- Menu Item Image -->
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_notifications_black_24dp"/>
+
+    <!-- Badge Count -->
+    <TextView
+        android:id="@+id/notify_badge"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_gravity="right|end|top"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="1dp"
+        android:padding="1dp"
+        android:text="99"
+        android:gravity="center"
+        android:background="@drawable/circle_shape"
+        android:textColor="@color/white"
+        android:textSize="6dp"/>
+
+</FrameLayout>
